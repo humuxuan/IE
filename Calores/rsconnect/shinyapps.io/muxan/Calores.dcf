@@ -1,0 +1,14 @@
+name: Calores
+title: Calores
+username:
+account: muxan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6913317
+bundleId: 6313809
+url: https://muxan.shinyapps.io/Calores/
+when: 1663511011.31915
+lastSyncTime: 1663511011.31915
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: input.csv

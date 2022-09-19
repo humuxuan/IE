@@ -1,0 +1,14 @@
+name: New_Diet
+title: New_Diet
+username:
+account: muxan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7043779
+bundleId: 6313815
+url: https://muxan.shinyapps.io/New_Diet/
+when: 1663511347.60524
+lastSyncTime: 1663511347.60524
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|new_nuitiion.csv|Update.sql

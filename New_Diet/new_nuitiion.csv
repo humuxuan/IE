@@ -1,0 +1,153 @@
+Category,Name,Measurement,KJ_Per_mea,Protein,Fat,Sat.Fat,Fiber,Carbs
+ALBE,Beer,millilitre,2,0,0,0,0,0.02
+ALBE,Coffee,millilitre,0,0,0,0,0,0
+ALBE,"Cola drinks",millilitre,2,0,0,0,0,0.11
+ALBE,"Fruit-flavored soda",millilitre,2,0,0,0,0,0.12
+ALBE,Gin,millilitre,10,0,0,0,0,0
+ALBE,"Ginger ale",millilitre,1,0,0,0,0,0.08
+ALBE,"Root beer",millilitre,2,0,0,0,0,0.1
+ALBE,"Sugar free soft drinks",millilitre,0,0,0,0,0,0
+ALBE,Tea,millilitre,0,0,0,0,0,0
+ALBE,Wines,millilitre,5,0,0,0,0,0.07
+BRGR,Biscuits,quantity,544,3,4,3,0,18
+BRGR,Cornflakes,cup,460,2,0,0,0,25
+BRGR,Crackers,quantity,115,1,1,0,0,5
+BRGR,Muffins,quantity,565,4,5,4,0,19
+BRGR,Noodles,cup,837,7,2,2,0,37
+BRGR,Oatmeal,cup,628,5,3,2,5,26
+BRGR,Pancakes,quantity,262,2,2,0,0,7
+BRGR,Pasta,cup,1192,5,1,0,0,32
+BRGR,"Pizza (slice)",quantity,753,8,6,5,0,23
+BRGR,Rice,cup,3130,15,3,0,1,154
+BRGR,"Rye bread (slice)",quantity,230,2,1,1,0,12
+BRGR,Waffles,quantity,1004,8,9,1,0,30
+BRGR,"Wheat bread (slice)",quantity,230,2,1,1,3,10.8
+BRGR,"White bread (slice)",quantity,256,2,1,1,0,11.45
+DA,Buttermilk,cup,531,9,5,4,0,13
+DA,Cheese,gram,1004,30,11,10,0,6
+DA,"Cows' milk",cup,690,8,10,9,0,12
+DA,Cream,cup,1422,8,30,26,0,10
+DA,Custard,cup,1192,13,14,11,0,28
+DA,"Evaporated Milk",cup,1443,16,20,18,0,24
+DA,"Skim milk",cup,377,9,0,0,0,13
+DESW,Cakes,gram,12,3,0,0,0,23
+DESW,Candy,gram,17,0,1,1,0,3.8
+DESW,Cupcake,quantity,669,3,3,2,0,31
+DESW,Doughnuts,quantity,565,2,7,4,0,17
+DESW,"Fruit cake",gram,15,2,4,3,0,17
+DESW,Fudge,gram,17,0,6,6,0,40
+DESW,Gingerbread,gram,14,2,7,6,0,28
+DESW,"Hard candies",gram,13,0,0,0,0,1
+DESW,Honey,tablespoon,251,0,0,0,0,15
+DESW,"Ice cream",cup,1255,0,0,12,10,0
+DESW,Jam,tablespoon,230,0,0,0,0,14
+DESW,Marshmallows,quantity,82,0,0,0,0,4.6
+DESW,"Milk chocolate",gram,22,0,0,0,0,0.79
+DESW,"Sponge cake",gram,12,3,2,2,0,22
+FR,Apples,quantity,293,0,0,0,1,18
+FR,Avocado,quantity,1548,4,36,24,4,12
+FR,Banana,quantity,356,1,0,0,1,23
+FR,Blackberries,cup,356,2,1,0,7,19
+FR,Blueberries,cup,1025,1,0,0,2,65
+FR,Cantaloupe,quantity,334,2,0,0,4,18
+FR,Cherries,cup,418,2,1,0,2,26
+FR,Dates,cup,2113,4,0,0,4,134
+FR,Figs,quantity,251,1,0,0,1,15
+FR,Grapefruit,quantity,418,2,0,0,2,28
+FR,Grapes,cup,293,1,0,0,1,16
+FR,"Orange juice",cup,469,2,0,0,0,25
+FR,Oranges,quantity,251,2,0,0,1,16
+FR,Papaya,quantity,628,2,0,0,4,36
+FR,Peaches,gram,3,1,0,0,1,52
+FR,Pears,gram,3,1,0,0,2,50
+FR,Pineapple,gram,3,0,0,0,0,26
+FR,"Pineapple juice",cup,502,1,0,0,0,32
+FR,Plums,gram,3,1,0,0,1,50
+FR,Prunes,cup,1255,3,1,0,1,81
+FR,Raisins,cup,481,4,0,0,1,164
+FR,Raspberries,cup,209,0,0,0,4,50
+FR,Strawberries,gram,4,1,0,0,1,60
+FR,Tangerines,gram,1,1,0,0,1,10
+FR,Watermelon,gram,1,2,1,0,4,29
+ME,Bacon,quantity,199,2,4,4,0,0.5
+ME,Beef,gram,12,0,0,0,0,0
+ME,Chicken,gram,9,0,0,0,0,0
+ME,"Corned beef",gram,9,0,0,0,0,0
+ME,Duck,gram,15,0,0,0,0,0
+ME,Eggs,quantity,314,6,6,5,0,0
+ME,"Ground beef (lean)",gram,9,0,0,0,0,0
+ME,Ham,gram,12,7,7,6,0,0
+ME,Lamb,gram,17,6,9,8,0,0
+ME,"Pork chop",gram,11,0,0,0,0,0
+ME,"Pork roast",gram,15,0,0,0,0,0
+ME,Pot-pie,quantity,2008,18,28,25,0,32
+ME,"Roast beef",gram,19,0,0,0,0,0
+ME,"Roasted chicken",gram,12,0,0,0,0,0
+ME,Sausage,gram,20,0,0,0,0,0
+ME,Steak,gram,16,0,0,0,0,0
+ME,Turkey,gram,11,0,0,0,0,0
+ME,Veal,gram,9,0,0,0,0,0
+SENU,Almonds,gram,25,26,76,56,4,26
+SENU,"Brazil nuts",gram,27,20,94,62,4,14
+SENU,Cashews,gram,23,24,64,56,2,40
+SENU,"Peanut butter",gram,25,36,76,52,3,27.27
+SENU,Peanuts,gram,24,39,76,48,4,27.27
+SENU,Pecans,gram,28,10,70,50,2,14
+SENU,"Sesame seeds",gram,23,18,48,26,6,20
+SENU,"Sunflower seeds",gram,23,24,52,14,4,20
+SENU,Walnuts,gram,27,14,64,14,2,16
+SF,Clams,gram,4,0,0,0,0,0.02
+SF,Cod,gram,7,0,0,0,0,0
+SF,"Crab meat",gram,4,0,0,0,0,0.01
+SF,"Fish sticks",quantity,167,4,2,1,0,1.6
+SF,Flounder,gram,8,0,0,0,0,0
+SF,Haddock,gram,7,0,0,0,0,0.07
+SF,Halibut,gram,8,0,0,0,0,0
+SF,Herring,quantity,883,22,13,0,0,0
+SF,Lobster,quantity,385,18,1,0,0,0
+SF,Mackerel,gram,8,0,0,0,0,0
+SF,Salmon,gram,6,0,0,0,0,0
+SF,Sardines,gram,9,0,0,0,0,0
+SF,Scallops,gram,4,0,0,0,0,0.1
+SF,Shrimp,gram,5,0,0,0,0,0
+SF,Tuna,gram,8,0,0,0,0,0
+SO,"Beef soup",cup,418,6,4,4,1,11
+SO,"Chicken soup",cup,314,4,2,2,0,10
+SO,"Clam chowder",cup,356,5,2,8,1,12
+SO,"Cream soups",cup,837,7,12,11,1,18
+SO,"Noodle soup",cup,481,6,4,3,0,13
+SO,"Split-pea soup",cup,615,8,3,3,1,25
+SO,"Tomato soup",cup,732,6,7,6,1,22
+SO,"Vegetable soup",cup,335,4,2,2,0,14
+VG,Artichoke,quantity,109,2,0,0,2,10
+VG,Asparagus,quantity,13,0,0,0,0,0.5
+VG,"Baked potato",quantity,418,2,0,0,1,22
+VG,"Bean sprouts",cup,71,1,0,0,0,3
+VG,Beans,cup,105,1,0,0,1,6
+VG,Beetroot,cup,4,12,0,0,0,0.8
+VG,Broccoli,cup,188,5,0,0,2,8
+VG,"Brussels sprouts",cup,251,6,0,0,2,12
+VG,Capsicum,quantity,105,1,0,0,1,6
+VG,Carrots,cup,188,1,0,0,1,10
+VG,Cauliflower,cup,126,3,0,0,1,6
+VG,Celery,cup,84,1,0,0,1,4
+VG,Corn,quantity,385,3,1,0,1,21
+VG,Cucumbers,quantity,3,0,0,0,0,0.12
+VG,Eggplant,cup,126,2,0,0,1,9
+VG,"Fried potato",cup,1495,5,19,8,1,44
+VG,Kale,cup,188,4,1,0,1,8
+VG,Lentils,cup,887,15,0,0,2,38
+VG,Lettuce,quantity,236,4,0,0,2,8
+VG,"Mashed potato",cup,962,4,12,11,1,28
+VG,"Mustard greens",quantity,126,3,0,0,1,6
+VG,Okra,cup,101,1,0,0,1,5.26
+VG,Onions,quantity,335,2,0,0,2,18
+VG,Parsnips,cup,397,2,1,0,3,22
+VG,Peas,cup,276,3,0,0,0,13
+VG,"Potato chips",gram,23,0,1,0,0,1
+VG,Radishes,quantity,8,0,0,0,0,0.4
+VG,Soybeans,cup,1088,22,11,0,3,20
+VG,Spinach,cup,109,3,0,0,1,3
+VG,Squash,cup,146,1,0,0,1,8
+VG,"Sweet potatoes",quantity,649,2,1,0,1,36
+VG,Tomatoes,cup,209,2,0,0,1,9
