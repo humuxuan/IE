@@ -1,0 +1,151 @@
+Category,Name,quantity_for_serving,Measurement,kj_per_serving
+Additional,Beef soup,299,mL,500
+Additional,Beer,252,mL,500
+Additional,Cakes,43,gram,500
+Additional,Candy,29,gram,500
+Additional,Chicken soup,398,mL,500
+Additional,Clam chowder,358,mL,500
+Additional,Cola drinks,302,mL,500
+Additional,Cream soups,152,mL,500
+Additional,Cupcake,37,gram,500
+Additional,Doughnuts,29,gram,500
+Additional,Fruit cake,34,gram,500
+Additional,Fruit-flavored soda,257,mL,500
+Additional,Fudge,29,gram,500
+Additional,Gin,48,mL,500
+Additional,Ginger ale,394,mL,500
+Additional,Gingerbread,37,gram,500
+Additional,Hard candies,37,gram,500
+Additional,Honey,42,gram,500
+Additional,Ice cream,75,mL,500
+Additional,Jam,43,gram,500
+Additional,Marshmallows,37,gram,500
+Additional,Milk chocolate,23,gram,500
+Additional,Noodle soup,260,mL,500
+Additional,Pizza (slice),50,gram,500
+Additional,Root beer,295,mL,500
+Additional,Split-pea soup,203,mL,500
+Additional,Sponge cake,42,gram,500
+Additional,Sugar free soft drinks,0,mL,0
+Additional,Tomato soup,167,mL,500
+Additional,Vegetable soup,373,mL,500
+Additional,Wines,87,mL,500
+Dairy,Buttermilk,232,mL,500
+Dairy,Cheese,112,gram,500
+Dairy,Cows' milk,177,mL,500
+Dairy,Cream,84,mL,500
+Dairy,Custard,104,mL,500
+Dairy,Evaporated Milk,87,mL,500
+Dairy,Skim milk,327,mL,500
+Fruit,Apples,150,gram,338
+Fruit,Avocado,150,gram,1075
+Fruit,Banana,150,gram,356
+Fruit,Blackberries,150,gram,371
+Fruit,Blueberries,150,gram,615
+Fruit,Cantaloupe,150,gram,66
+Fruit,Cherries,150,gram,244
+Fruit,Dates,150,gram,1781
+Fruit,Figs,150,gram,1793
+Fruit,Grapefruit,150,gram,110
+Fruit,Grapes,150,gram,287
+Fruit,Orange juice,150,gram,281
+Fruit,Oranges,150,gram,209
+Fruit,Papaya,150,gram,236
+Fruit,Peaches,150,gram,489
+Fruit,Pears,150,gram,480
+Fruit,Pineapple,150,gram,488
+Fruit,Pineapple juice,150,gram,301
+Fruit,Plums,150,gram,454
+Fruit,Prunes,150,gram,697
+Fruit,Raisins,150,gram,1640
+Fruit,Raspberries,150,gram,627
+Fruit,Strawberries,150,gram,669
+Fruit,Tangerines,150,gram,220
+Fruit,Watermelon,150,gram,81
+Grains,Biscuits,35,gram,500
+Grains,Cornflakes,27,gram,500
+Grains,Crackers,30,gram,500
+Grains,Muffins,42,gram,500
+Grains,Noodles,96,gram,500
+Grains,Oatmeal,188,gram,500
+Grains,Pancakes,52,gram,500
+Grains,Pasta,105,gram,500
+Grains,Rice,33,gram,500
+Grains,Rye bread (slice),50,gram,500
+Grains,Waffles,37,gram,500
+Grains,Wheat bread (slice),49,gram,500
+Grains,White bread (slice),44,gram,500
+Protein,Almonds,20,gram,500
+Protein,Bacon,20,gram,500
+Protein,Beef,41,gram,500
+Protein,Brazil nuts,18,gram,500
+Protein,Cashews,21,gram,500
+Protein,Chicken,55,gram,500
+Protein,Clams,117,gram,500
+Protein,Cod,70,gram,500
+Protein,Corned beef,55,gram,500
+Protein,Crab meat,113,gram,500
+Protein,Duck,32,gram,500
+Protein,Eggs,80,gram,500
+Protein,Fish sticks,67,gram,500
+Protein,Flounder,60,gram,500
+Protein,Ground beef (lean),55,gram,500
+Protein,Haddock,75,gram,500
+Protein,Halibut,66,gram,500
+Protein,Ham,40,gram,500
+Protein,Herring,57,gram,500
+Protein,Lamb,29,gram,500
+Protein,Lobster,130,gram,500
+Protein,Mackerel,65,gram,500
+Protein,Peanut butter,20,gram,500
+Protein,Peanuts,21,gram,500
+Protein,Pecans,18,gram,500
+Protein,Pork chop,46,gram,500
+Protein,Pork roast,33,gram,500
+Protein,Pot-pie,57,gram,500
+Protein,Roast beef,26,gram,500
+Protein,Roasted chicken,41,gram,500
+Protein,Salmon,85,gram,500
+Protein,Sardines,56,gram,500
+Protein,Sausage,25,gram,500
+Protein,Scallops,115,gram,500
+Protein,Sesame seeds,21,gram,500
+Protein,Shrimp,92,gram,500
+Protein,Steak,31,gram,500
+Protein,Sunflower seeds,21,gram,500
+Protein,Tuna,60,gram,500
+Protein,Turkey,45,gram,500
+Protein,Veal,55,gram,500
+Protein,Walnuts,18,gram,500
+Vegetables,Artichoke,75,gram,82
+Vegetables,Asparagus,75,gram,59
+Vegetables,Baked potato,75,gram,314
+Vegetables,Bean sprouts,75,gram,107
+Vegetables,Beans,75,gram,63
+Vegetables,Beetroot,75,gram,2
+Vegetables,Broccoli,75,gram,94
+Vegetables,Brussels sprouts,75,gram,145
+Vegetables,Capsicum,75,gram,79
+Vegetables,Carrots,75,gram,94
+Vegetables,Cauliflower,75,gram,79
+Vegetables,Celery,75,gram,63
+Vegetables,Corn,75,gram,289
+Vegetables,Cucumbers,75,gram,38
+Vegetables,Eggplant,75,gram,53
+Vegetables,Fried potato,75,gram,841
+Vegetables,Kale,75,gram,128
+Vegetables,Lentils,75,gram,333
+Vegetables,Lettuce,75,gram,44
+Vegetables,Mashed potato,75,gram,361
+Vegetables,Mustard greens,75,gram,68
+Vegetables,Okra,75,gram,101
+Vegetables,Onions,75,gram,120
+Vegetables,Parsnips,75,gram,192
+Vegetables,Peas,75,gram,207
+Vegetables,Potato chips,75,gram,1725
+Vegetables,Radishes,75,gram,63
+Vegetables,Soybeans,75,gram,408
+Vegetables,Spinach,75,gram,82
+Vegetables,Squash,75,gram,52
+Vegetables,Sweet potatoes,75,gram,443
+Vegetables,Tomatoes,75,gram,65

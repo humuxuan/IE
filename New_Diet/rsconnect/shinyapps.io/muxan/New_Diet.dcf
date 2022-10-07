@@ -5,10 +5,10 @@ account: muxan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7043779
-bundleId: 6313815
+bundleId: 6379099
 url: https://muxan.shinyapps.io/New_Diet/
-when: 1663511347.60524
-lastSyncTime: 1663511347.60524
+when: 1665140425.21665
+lastSyncTime: 1665140425.21665
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .RData|new_nuitiion.csv|Update.sql
+ignoredFiles: .RData|AWS.R|new_dataset.csv|new_nuitiion.csv|Update.sql
