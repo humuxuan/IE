@@ -1,6 +1,6 @@
 # IE: https://myhealthyimmune.link/
 ## 1. calcualating calories
-Here, i use the simple linear regression to make a simple predict. The dataset is from the kaggle webiste <https://www.kaggle.com/datasets/aadhavvignesh/calories-burned-during-exercise-and-activities>
+Here, i use the simple linear regression to make a simple predict. The dataset is from the kaggle webiste <https://www.kaggle.com/datasets/aadhavvignesh/calories-burned-during-exercise-and-activities>. In addition, i also add some small features about exercise advice for different age group.
 
 
 ## 2. diet
