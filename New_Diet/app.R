@@ -61,8 +61,11 @@ ui <- dashboardPage(
                          selectizeInput('measure_unit', 'Measure Unit', choices = c("Select an ingredient" = "")),
                          numericInput('quantity', 'Numbers of Servings', value = 1, min = 0, step = 1)),
         # some action button
-        actionButton("add", "Add ingredient"),
-        actionButton("remove", "Remove ingredient")
+        conditionalPanel('input.food != ""',
+                         actionButton("add", "Add ingredient"),
+                         actionButton("remove", "Remove ingredient"))
+        #actionButton("add", "Add ingredient"),
+        #actionButton("remove", "Remove ingredient")
     ),
     # visualization in the dashboard body
     dashboardBody(
@@ -127,10 +130,23 @@ ui <- dashboardPage(
         #       tags$p(textOutput("serving", inline = T)),
         #       div(DT::DTOutput("nutrient_table"), style = "font-size: 100%;"))
         # ),
-      
       fluidRow(
         box(title = 'Servings for Each ingredients', solidHeader = T,
-            background = 'maroon', width = 13, collapsible = T,
+            background = 'black', width = 13, collapsible = T,
+            HTML(
+              "
+           <ui>
+           Please Pay attention the red line or green line, which shows the standard servings for Female and Male.
+           After select Ingredent and Click add, Let we check if you exceed the standard
+           <li>
+           Red line: The Standard serving for Female
+           </li>
+           <li>
+           Green line: The Standard serving for Male
+           </li>
+           </ui>
+        "
+            ),
             plotlyOutput('Servings_plot')
             )
       )
@@ -272,6 +288,7 @@ server <- function(input, output, session){
             Male_df = recommend_service %>% filter(Type =='Male')
             Female_df = recommend_service %>% filter(Type =='Female')
             
+            
             # plot the bar_plot
             p = ggplot() +
               geom_line(data = Female_df, aes(x = Food, y = Serving,group = 1,colour="Female"),size=2) + 
@@ -287,6 +304,7 @@ server <- function(input, output, session){
           else if (input$radio == 'Male')
           {
             Male_df = recommend_service %>% filter(Type =='Male')
+            print(temp_Serving)
             
             # plot the bar_plot
             p = ggplot() +

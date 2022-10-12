@@ -5,10 +5,10 @@ account: muxan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6913317
-bundleId: 6379016
+bundleId: 6395030
 url: https://muxan.shinyapps.io/Calores/
-when: 1665138011.93127
-lastSyncTime: 1665138011.93127
+when: 1665575075.22949
+lastSyncTime: 1665575075.22949
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: Building_model.R|input.csv

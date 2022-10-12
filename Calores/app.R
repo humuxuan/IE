@@ -8,7 +8,6 @@ model <- readRDS("model.rds")
 
 # desin UI
 ui <- fluidPage(
-  
   dashboardPage(
     dashboardHeader(title = "Exercise and Calories", titleWidth = 800), 
     dashboardSidebar(
@@ -19,22 +18,22 @@ ui <- fluidPage(
                                      'Female' = 1)),
           numericInput("Age", 
                        label = "Age", 
-                       value = 0,min = 0),
+                       value = 0),
           numericInput("Height", 
                        label = "Height(Cm)",  
-                       value = 0,min = 0),
+                       value = 0),
           numericInput("Weight", 
                        label = "Weight(Kg)",
-                       value = 0,min = 0),
+                       value = 0),
           numericInput("Duration", 
                        label = "Sport Duration(Minute)",  
-                       value = 0,min = 0),
+                       value = 0),
           numericInput("Heart_Rate", 
                        label = "Heart Rate(Per Minute)", 
-                       value = 0,min = 0),
+                       value = 0),
           numericInput("Body_Temp", 
-                       label = "Body Tempreture(Degree Celsius)",
-                       value = 0,min = 0),
+                       label = "Body Temperature(Degree Celsius)",
+                       value = 0),
           
           actionButton("submitbutton", "Submit", 
                        class = "btn btn-primary")
@@ -79,13 +78,30 @@ ui <- fluidPage(
         ,width = 12
           )
       )
-)
+),
+# set the color, size for error
+tags$head(
+  tags$style(HTML("
+      .shiny-output-error-validation {
+                    color: red;
+                    font-size: 20px;
+                    font-style: italic;
+      }
+    "))
+  )
 )
 
 server <- function(input, output) {
   datasetInput <- reactive({ 
-    if (input$Age >0 && input$Height >0 && input$Weight >0 && input$Duration >0 && input$Heart_Rate >0 && input$Body_Temp >0)
-    {
+    validate(
+      need(input$Age > 0 && input$Age <= 120, "Please input the correct Age"),
+      need(input$Height >= 70 && input$Height <= 300, "Please input the correct Height"),
+      need(input$Weight > 0 && input$Weight <= 200, "Please input the correct Weight"),
+      need(input$Duration > 0, "Please input the correct Duration"),
+      need(input$Heart_Rate >= 40  && input$Heart_Rate <= 200, "Please input the correct Heart_Rate"),
+      need(input$Body_Temp >= 35 && input$Body_Temp <= 42, "Please input the correct Body_Temp")
+    )
+    
       df <- data.frame(
         Name = c("Gender",
                  "Age",
@@ -107,14 +123,12 @@ server <- function(input, output) {
       df <- rbind(df, Claries)
       input <- transpose(df)
       write.table(input,"input.csv", sep=",", quote = FALSE, row.names = FALSE, col.names = FALSE)
-      
+
       test <- read.csv(paste("input", ".csv", sep=""), header = TRUE)
       predict_answer = as.double(predict(model,test))
       h1(sprintf("%0.1f Calories",predict_answer))
-    }
-    else{
-      h1("Please Check Paramenters")
-    }
+    
+    
   })
   
   # Status/Output Text Box
